@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <!-- GeneralSystemInfo -->
+  <!-- Количество ячеек -->
+  <CellCount>75</CellCount>
+  <!-- Мастшаб ячеек -->
+  <WindowScale>1</WindowScale>
+  <!-- Ориентир для цветового спектра -->
+  <EnergyScale>0.5</EnergyScale>
+  <!--SystemState-->
+  <!-- Объем энергии системы -->
+  <EnergyCapacity>5000</EnergyCapacity>
+  <!-- Максимальный энергозапас клетки поля -->
+  <EnergyMaxCell>10</EnergyMaxCell>
+  <!--EntityState-->
+  <!-- Размер популяции сущностей -->
+  <PopSize>500</PopSize>
+  <!-- Максимальная энергия сущности-->
+  <EnergyMaxEntity>2</EnergyMaxEntity>
+  <!-- Поглощение энергии сущностью -->
+  <EnregyEntityIn>0.25</EnregyEntityIn>
+  <!-- Выделение энергии сущностью-->
+  <EnregyEntityOut>0.08</EnregyEntityOut>
+  <!-- Радиус выделения энергии-->
+  <SpreadEnergySize>4</SpreadEnergySize>
+  <!-- Энергия затрачиваемая сущностью на передвижение-->
+  <ShiftEnergy>0.4</ShiftEnergy>
+  <!-- Граница передвижения(для того чтобы сущность передвинулась, энергия между двумя клетками должна отличаться в scaleShiftBorder раз)-->
+  <ScaleShiftBorder>50</ScaleShiftBorder>
+</Config>
